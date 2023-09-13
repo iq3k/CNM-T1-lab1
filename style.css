@@ -1,0 +1,46 @@
+/* .abs {
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+} */
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    
+
+    /* background-color: #f1f1f1; */
+    height: 300px; /* only for demonstration, should be removed */
+  }
+.image {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    
+}
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    /* background: #ccc; */
+    padding: 20px;
+}
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+.abs
+{
+    padding-top: 80px;
+}
